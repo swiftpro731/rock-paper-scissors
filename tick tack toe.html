@@ -1,0 +1,69 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Itim&display=swap"
+      rel="stylesheet"
+    />
+    <title>Tic-Tac-Toe</title>
+
+  </head>
+  <body>
+    <main class="background">
+      <section class="title">
+        <h1>Tic Tac Toe</h1>
+      </section>
+      <section class="display">
+        Player <span class="display-player playerX">X</span>'s turn
+      </section>
+      <section class="container">
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+      </section>
+      <section class="display announcer hide"></section>
+      <section class="controls">
+        <button id="startNewGame">Start New Game</button>
+        <button id="startNewRound">
+          Start New Round
+        </button>
+      </section>
+      <table border="1" class="scorecard">
+        <tr>
+          <th>Player X</th>
+          <th>Player O</th>
+          <th>Tie</th>
+        </tr>
+        <tr>
+          <td>
+            <div class="xscore">0</div>
+            <div class="xscoreimages">
+            
+            </div>
+          </td>
+          <td>
+            <div class="oscore">0</div>
+            <div class="oscoreimages">
+            
+            </div>
+          </td>
+          <td>
+            <div class="tiescore">0</div>
+            <div class="tiescoreimages">
+            
+            </div>
+          </td>
+        </tr>
+      </table>
+    </main>
+  </body>
+</html>
